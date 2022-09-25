@@ -46,7 +46,7 @@ def run_alexa():
         info = wikipedia.summary(person, 1)
         print(info)
         talk(info)
-    elif 'Any update regarding BGMI unban or ban' in command:
+    elif 'wanna date?' in command:
         talk('No')
     elif 'are you there' in command:
         talk('Yes am here, please pass out your command')
